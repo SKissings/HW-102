@@ -80,21 +80,23 @@ ul {
     text-align: center;
     font-size: 70px;
     display: inline-block;
-   padding-left: 4%;
-    padding-right: 1%;
     background-color: rgba(0, 0, 0, 0.589);
+    padding-left: 15%;
+    padding-right: 13.2%;
 }
 .outl {
     width: 400px;
-    padding-left: 30px;
-    padding-right: 10%;
+    float: left;
+    border: 5px solid black;
 }
 .outl2 {
     width: 400px;
-    padding-left: 10%;
+    float: right;
+    border: 5px solid black;
 }
 .hood {
-    width: 300px;
+    border: 5px solid black;
+    float: right;
 }
 h4 {
     font-family: "Bangers", system-ui;
@@ -104,4 +106,5 @@ h4 {
     font-size: 60px;
     background-color: black;
     border: 5px ridge;
+    float: left;
 }
